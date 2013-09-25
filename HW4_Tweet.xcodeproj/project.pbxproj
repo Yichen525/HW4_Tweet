@@ -15,13 +15,22 @@
 		B97D88F817F1E40100268ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D88F717F1E40100268ED6 /* AppDelegate.m */; };
 		B97D88FB17F1E40100268ED6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97D88F917F1E40100268ED6 /* Main_iPhone.storyboard */; };
 		B97D88FE17F1E40100268ED6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97D88FC17F1E40100268ED6 /* Main_iPad.storyboard */; };
-		B97D890117F1E40100268ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D890017F1E40100268ED6 /* ViewController.m */; };
 		B97D890317F1E40100268ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97D890217F1E40100268ED6 /* Images.xcassets */; };
 		B97D890A17F1E40100268ED6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D890917F1E40100268ED6 /* XCTest.framework */; };
 		B97D890B17F1E40100268ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D88E717F1E40100268ED6 /* Foundation.framework */; };
 		B97D890C17F1E40100268ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D88EB17F1E40100268ED6 /* UIKit.framework */; };
 		B97D891417F1E40100268ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97D891217F1E40100268ED6 /* InfoPlist.strings */; };
 		B97D891617F1E40100268ED6 /* HW4_TweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D891517F1E40100268ED6 /* HW4_TweetTests.m */; };
+		B97D892117F1E61500268ED6 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D891F17F1E61500268ED6 /* dot.png */; };
+		B97D892217F1E61500268ED6 /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D892017F1E61500268ED6 /* dot@2x.png */; };
+		B97D892617F1E6DE00268ED6 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D892517F1E6DE00268ED6 /* PostViewController.m */; };
+		B97D892817F1E82000268ED6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D892717F1E82000268ED6 /* Social.framework */; };
+		B97D892A17F1E84B00268ED6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D892917F1E84B00268ED6 /* Icon.png */; };
+		B97D892F17F1EBCE00268ED6 /* FavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D892E17F1EBCE00268ED6 /* FavViewController.m */; };
+		B97D893217F1EF1000268ED6 /* FavCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D893117F1EF1000268ED6 /* FavCell.m */; };
+		B97D893717F1F56800268ED6 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D893617F1F56800268ED6 /* FeedViewController.m */; };
+		B97D893A17F20C4700268ED6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D893917F20C4700268ED6 /* Accounts.framework */; };
+		B97D893D17F241C400268ED6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D893C17F241C400268ED6 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +56,27 @@
 		B97D88F717F1E40100268ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B97D88FA17F1E40100268ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B97D88FD17F1E40100268ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B97D88FF17F1E40100268ED6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B97D890017F1E40100268ED6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B97D890217F1E40100268ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B97D890817F1E40100268ED6 /* HW4_TweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW4_TweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97D890917F1E40100268ED6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B97D891117F1E40100268ED6 /* HW4_TweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW4_TweetTests-Info.plist"; sourceTree = "<group>"; };
 		B97D891317F1E40100268ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B97D891517F1E40100268ED6 /* HW4_TweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW4_TweetTests.m; sourceTree = "<group>"; };
+		B97D891F17F1E61500268ED6 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		B97D892017F1E61500268ED6 /* dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@2x.png"; sourceTree = "<group>"; };
+		B97D892417F1E6DE00268ED6 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		B97D892517F1E6DE00268ED6 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		B97D892717F1E82000268ED6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B97D892917F1E84B00268ED6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B97D892D17F1EBCE00268ED6 /* FavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavViewController.h; sourceTree = "<group>"; };
+		B97D892E17F1EBCE00268ED6 /* FavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavViewController.m; sourceTree = "<group>"; };
+		B97D893017F1EF1000268ED6 /* FavCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavCell.h; sourceTree = "<group>"; };
+		B97D893117F1EF1000268ED6 /* FavCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavCell.m; sourceTree = "<group>"; };
+		B97D893517F1F56800268ED6 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedViewController.h; path = ../FeedViewController.h; sourceTree = "<group>"; };
+		B97D893617F1F56800268ED6 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedViewController.m; path = ../FeedViewController.m; sourceTree = "<group>"; };
+		B97D893917F20C4700268ED6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B97D893B17F241C400268ED6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B97D893C17F241C400268ED6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97D893A17F20C4700268ED6 /* Accounts.framework in Frameworks */,
+				B97D892817F1E82000268ED6 /* Social.framework in Frameworks */,
 				B97D88EA17F1E40100268ED6 /* CoreGraphics.framework in Frameworks */,
 				B97D88EC17F1E40100268ED6 /* UIKit.framework in Frameworks */,
 				B97D88E817F1E40100268ED6 /* Foundation.framework in Frameworks */,
@@ -84,6 +108,7 @@
 		B97D88DB17F1E40100268ED6 = {
 			isa = PBXGroup;
 			children = (
+				B97D892317F1E61900268ED6 /* Image */,
 				B97D88ED17F1E40100268ED6 /* HW4_Tweet */,
 				B97D890F17F1E40100268ED6 /* HW4_TweetTests */,
 				B97D88E617F1E40100268ED6 /* Frameworks */,
@@ -103,6 +128,8 @@
 		B97D88E617F1E40100268ED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B97D893917F20C4700268ED6 /* Accounts.framework */,
+				B97D892717F1E82000268ED6 /* Social.framework */,
 				B97D88E717F1E40100268ED6 /* Foundation.framework */,
 				B97D88E917F1E40100268ED6 /* CoreGraphics.framework */,
 				B97D88EB17F1E40100268ED6 /* UIKit.framework */,
@@ -114,12 +141,13 @@
 		B97D88ED17F1E40100268ED6 /* HW4_Tweet */ = {
 			isa = PBXGroup;
 			children = (
+				B97D893817F1F57300268ED6 /* feed */,
+				B97D893417F1F53500268ED6 /* post */,
+				B97D893317F1F52100268ED6 /* fav */,
 				B97D88F617F1E40100268ED6 /* AppDelegate.h */,
 				B97D88F717F1E40100268ED6 /* AppDelegate.m */,
 				B97D88F917F1E40100268ED6 /* Main_iPhone.storyboard */,
 				B97D88FC17F1E40100268ED6 /* Main_iPad.storyboard */,
-				B97D88FF17F1E40100268ED6 /* ViewController.h */,
-				B97D890017F1E40100268ED6 /* ViewController.m */,
 				B97D890217F1E40100268ED6 /* Images.xcassets */,
 				B97D88EE17F1E40100268ED6 /* Supporting Files */,
 			);
@@ -153,6 +181,47 @@
 				B97D891217F1E40100268ED6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97D892317F1E61900268ED6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B97D892917F1E84B00268ED6 /* Icon.png */,
+				B97D891F17F1E61500268ED6 /* dot.png */,
+				B97D892017F1E61500268ED6 /* dot@2x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		B97D893317F1F52100268ED6 /* fav */ = {
+			isa = PBXGroup;
+			children = (
+				B97D893017F1EF1000268ED6 /* FavCell.h */,
+				B97D893117F1EF1000268ED6 /* FavCell.m */,
+				B97D892D17F1EBCE00268ED6 /* FavViewController.h */,
+				B97D892E17F1EBCE00268ED6 /* FavViewController.m */,
+			);
+			name = fav;
+			sourceTree = "<group>";
+		};
+		B97D893417F1F53500268ED6 /* post */ = {
+			isa = PBXGroup;
+			children = (
+				B97D892417F1E6DE00268ED6 /* PostViewController.h */,
+				B97D892517F1E6DE00268ED6 /* PostViewController.m */,
+			);
+			name = post;
+			sourceTree = "<group>";
+		};
+		B97D893817F1F57300268ED6 /* feed */ = {
+			isa = PBXGroup;
+			children = (
+				B97D893517F1F56800268ED6 /* FeedViewController.h */,
+				B97D893617F1F56800268ED6 /* FeedViewController.m */,
+				B97D893B17F241C400268ED6 /* DetailViewController.h */,
+				B97D893C17F241C400268ED6 /* DetailViewController.m */,
+			);
+			name = feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97D892217F1E61500268ED6 /* dot@2x.png in Resources */,
 				B97D88FE17F1E40100268ED6 /* Main_iPad.storyboard in Resources */,
 				B97D890317F1E40100268ED6 /* Images.xcassets in Resources */,
 				B97D88FB17F1E40100268ED6 /* Main_iPhone.storyboard in Resources */,
+				B97D892117F1E61500268ED6 /* dot.png in Resources */,
+				B97D892A17F1E84B00268ED6 /* Icon.png in Resources */,
 				B97D88F217F1E40100268ED6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97D890117F1E40100268ED6 /* ViewController.m in Sources */,
+				B97D892F17F1EBCE00268ED6 /* FavViewController.m in Sources */,
+				B97D893217F1EF1000268ED6 /* FavCell.m in Sources */,
+				B97D892617F1E6DE00268ED6 /* PostViewController.m in Sources */,
 				B97D88F817F1E40100268ED6 /* AppDelegate.m in Sources */,
+				B97D893717F1F56800268ED6 /* FeedViewController.m in Sources */,
 				B97D88F417F1E40100268ED6 /* main.m in Sources */,
+				B97D893D17F241C400268ED6 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

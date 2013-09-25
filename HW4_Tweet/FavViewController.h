@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FavViewController.h
 //  HW4_Tweet
 //
 //  Created by Yu Yichen on 9/24/13.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FavViewController : UITableViewController
+@property (strong, nonatomic) NSMutableArray *favTweets;
 
 @end
